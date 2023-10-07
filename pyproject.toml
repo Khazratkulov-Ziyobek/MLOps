@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "bank_personal_loan_modelling"
+version = "0.1.0"
+description = "The task is to predict customer will accept the personal loan or not"
+authors = ["Ziyobek Khazratkulov <khazratkulov.zt@phystech.edu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+pandas = "^2.0.0"
+numpy = "^1.24.4"
+catboost = "^1.2.2"
+scikit-learn = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+pytest = "^7.4.2"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+pre-commit = "^3.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 90
+target-version = ["py38"]
+
+[tool.isort]
+line_length = 90
+lines_after_imports = 2
+
+[tool.flake8]
+max-line-length = 90
+exclude = [".git", "__pycache__"]
+max-complexity = 10
