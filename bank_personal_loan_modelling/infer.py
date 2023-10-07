@@ -32,7 +32,7 @@ def predicting_data(X_test, y_test):
     print(f"Recall: {recall_score(y_test, y_predict)}")
     print(f"F1-score: {f1_score(y_test, y_predict)}")
     pd.DataFrame(y_predict, columns=['Personal Loan']).to_csv(PREDICT_PATH)
-    print(f"===== Predictions saved to {PREDICT_PATH}")
+    print(f"===== Predictions saved to {PREDICT_PATH} =====")
 
 if __name__ == "__main__":
     test_data = get_data(TEST_PATH)
