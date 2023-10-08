@@ -4,7 +4,7 @@
 
 The first assignment of MLOps course.
 
-For the first task is included dataset of personal loan prediction. The task is to predict customer will accept the personal loan or not. 
+For the first task is included dataset of personal loan prediction. The task is to predict customer will accept the personal loan or not.
 Columns of the data:
     <ul>
         <li>**ID** - Customer ID</li>
@@ -31,4 +31,4 @@ curl -sSL https://install.python-poetry.org | python3
 poetry install
 poetry run python3 ./bank_personal_loan_modelling/train.py
 poetry run python3 ./bank_personal_loan_modelling/infer.py
-``` 
+```
