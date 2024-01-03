@@ -2,8 +2,6 @@
 
 ## Personal Loan Prediction
 
-The first assignment of MLOps course.
-
 The project on the MLOPs course. In this project, we will consider classification dataset where we need to find whether the customer will opt for personal loan or not from the bank.
 
 ## Table of Contents
