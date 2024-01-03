@@ -1,0 +1,5 @@
+outs:
+- md5: 32e50d96e8f26de10549aa03215cbae6
+  size: 1014756
+  hash: md5
+  path: model.cbm
