@@ -12,6 +12,8 @@ The project on the MLOPs course. In this project, we will consider classificatio
 - [CLI](#cli)
 - [Mlflow](#mlflow)
 - [HW-3](#hw-3)
+- [Useful links](#useful-links)
+- [Contacts](#contacts)
 
 ## Background
 
@@ -70,6 +72,30 @@ To run **second assignment** you should:
 2. Set `is_mlflow_logging` parameter `True`
 3. Run ```python3 run_server.py```. This python script utilizes the `subprocess` module to execute a sequence of command-line operations on the terminal, which includes starting an MLflow server. Following this, it proceeds to run a set of commands related to software setup and model training. Upon complementing these commands, it opens a web browser to access the MLflow server hosted locally.
 
-## HW-3
+<!-- ## HW-3
 
-Triton server
+Triton server -->
+
+
+## Useful links
+
+[Lecture recordings on YouTube, autumn 2023](https://www.youtube.com/playlist?list=PLJR10EXrBaAuJzCa9HKmLRdUpgajnh1g7)
+
+Useful links:
+- python packaging: https://realpython.com/python-modules-packages/
+- poetry: https://python-poetry.org/docs/
+- pyproject.toml
+    - [declaring project metadata](https://packaging.python.org/en/latest/specifications/declaring-project-metadata/#declaring-project-metadata)
+    - [pyproject at pip site](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/)
+- fire (tool to create CLI): https://google.github.io/python-fire/
+- reference projects
+    - template for ml/ds: https://github.com/v-goncharenko/data-science-template
+    - regular pip package: https://github.com/v-goncharenko/somepytools
+    - ml project: https://github.com/v-goncharenko/mimics/
+- [secure jupyter notebook server](https://jupyter-notebook.readthedocs.io/en/5.6.0/public_server.html)
+
+## Contacts
+
+Khazratkulov Ziyobek - [Khazratkulov_Z](https://t.me/Khazratkulov_Z) - khazratkulovziyobek@gmail.com
+
+***Supervisor:*** [Vladislav Goncharenko](https://t.me/white_pepper)
